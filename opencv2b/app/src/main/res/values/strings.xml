@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">opencv2</string>
+    <string name="player_error">player error</string>
+</resources>
