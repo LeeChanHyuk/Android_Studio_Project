@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/cover"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="넓은 충치(씌우기)"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/bon"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/cover"
+        android:layout_marginBottom="50dp"
+        android:text="작은 충치(본 뜨기)"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/direct"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@id/bon"
+        android:text="작은 충치(직접치료)"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newteeth"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/cover"
+        android:text="넓은 충치(인공치아)"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endposneg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="돌아가기"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/timing"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="영구치의 발생시기"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/why"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@id/timing"
+        android:text="유치 관리 이유"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endyoungteeth"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="돌아가기"/>
+
+
+</RelativeLayout>

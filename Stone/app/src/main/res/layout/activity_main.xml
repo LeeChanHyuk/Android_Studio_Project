@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appname"
+        android:gravity="center"
+        android:text="치아 자가진단 App"
+        android:textSize="50sp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp"
+        android:gravity="center">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/checkteeth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="치아\n점검"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/teethhis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="찍었던\n치아사진"
+                android:textSize="32sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/waytouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="올바른 \n기구 사용법"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/finddent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="주         변\n치과찾기"
+                android:textSize="32sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/posneg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="충전소재\n장단점"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/childteeth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="유치와\n영구치"
+                android:textSize="32sp" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
